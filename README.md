@@ -3,6 +3,7 @@ This is an embedded Shopify App that enables transfer of a product from one stor
 The application will be installed to two stores (Store A and B). After installation, the application will show a simple select prompting to choose a store. In this case, if the application is installed in both Stores A and B and it is currently open in Store A, the select prompt will show Store B. After selecting Store B, the application will display a list of products of Store A. The selected product will then be copied into Store B.
 
 This was done by:
+
 ● Creating a new Rails application.
 
 ● Installing and configuring the Shopify App gem into the application.
@@ -15,14 +16,23 @@ This was done by:
 
 The gems used in the app are:
 ruby '3.0.2'
+
 gem 'rails', '~> 6.1.7'
+
 gem 'sqlite3', '~> 1.4'
+
 gem 'puma', '~> 5.0'
+
 gem 'sass-rails', '>= 6'
+
 gem 'webpacker', '~> 5.0'
+
 gem 'turbolinks', '~> 5'
+
 gem 'jbuilder', '~> 2.7'
+
 gem 'redis', '~> 4.0'
+
 gem 'bcrypt', '~> 3.1.7'
 
 gem 'image_processing', '~> 1.2'
