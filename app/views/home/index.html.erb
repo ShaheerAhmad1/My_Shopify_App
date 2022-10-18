@@ -7,7 +7,7 @@
       rel="stylesheet"
       href="https://unpkg.com/@shopify/polaris@4.25.0/styles.min.css"
       />
-    
+
       <script type="module">
         async function displayProducts() {
           var SessionToken = window["app-bridge"].actions.SessionToken
@@ -44,11 +44,11 @@
           }();
         };
 
-        
+
           document.addEventListener("DOMContentLoaded", displayProducts);
-        
+
       </script>
-    
+
   </head>
   <body>
     <h2>Products</h2>
@@ -66,3 +66,5 @@
     <% end %>
   </body>
 </html>
+
+<%= javascript_include_tag "index" %>
