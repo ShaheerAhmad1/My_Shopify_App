@@ -56,3 +56,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "shopify_app", "~> 21.0"
+gem 'polaris', '~> 1.1', '>= 1.1.2'
