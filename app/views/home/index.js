@@ -3,7 +3,7 @@ import {ResourcePicker} from '@shopify/app-bridge/actions';
 
 const app = createApp({
   apiKey: '840dda720d85df6998dc860207d63806',
-  host: https://1891-119-73-121-232.in.ngrok.io,
+  host: https://2d17-119-73-121-153.in.ngrok.io,
 });
 
 const productPicker = ResourcePicker.create(app, {
